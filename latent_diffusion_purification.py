@@ -234,7 +234,7 @@ def run_partial_diffusion_test(num_images=4, n_partial_steps=10):
 if __name__ == '__main__':
     # You can change these parameters for testing:
     NUM_IMAGES_TO_TEST = 4  # How many images to process and display
-    N_PARTIAL_DIFF_STEPS = 50 # Number of noising steps, and then number of denoising steps
+    N_PARTIAL_DIFF_STEPS = 100 # Number of noising steps, and then number of denoising steps
 
     run_partial_diffusion_test(num_images=NUM_IMAGES_TO_TEST, n_partial_steps=N_PARTIAL_DIFF_STEPS)
     
